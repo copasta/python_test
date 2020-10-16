@@ -21,7 +21,6 @@ with open(path) as f:
 setting = sorted(setting.items(), key=lambda x:x[0])
 
 for k, v in setting:
-    print(k, v)
     if problem % k == 0:
         if flag:
             answer = ''
