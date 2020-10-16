@@ -1,5 +1,5 @@
 DEBUG = False
-dir = './python_test_object-master/'
+dir = './inputs/'
 f_name = 'input.txt' # [sample1, sample2, input]
 path = dir + f_name
 
